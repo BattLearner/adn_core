@@ -1,0 +1,16 @@
+{
+  "steps": 2400,
+  "schedule_steps": 2400,
+  "learning_rate": 0.001,
+  "margin": 0.5,
+  "feature_temperature": 1.0,
+  "loss_weights": {
+    "normal_deviation": 1.0,
+    "reference_deviation": 2.0,
+    "normal_variance": 0.2,
+    "feature_confusion": 0.1,
+    "equal_count": 0.1,
+    "adjacent_order": 0.2,
+    "segment_consistency": 0.3
+  }
+}
